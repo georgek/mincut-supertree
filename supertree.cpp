@@ -28,6 +28,8 @@
  *
  */
 
+#include <cstdlib>
+#include <cstring>
 #include "ntree.h"
 #include "stree.h"
 #include "profile.h"
@@ -44,6 +46,7 @@
 #include <set>
 #include <fstream>
 #include <iomanip>
+#include <algorithm>
 
 /*
 #ifdef __GNUC__

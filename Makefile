@@ -121,7 +121,7 @@ dist:
 
 $(Bin)/supertree: $(EXOBJS)
 	$(CC) -o $(Bin)/supertree $(EXOBJS) $(incDirs) $(libDirs) $(LIBS) $(L_FLAGS)
-	
+
 $(oDir)/gtree.o: TreeLib/gtree.cpp TreeLib/gtree.h TreeLib/TreeLib.h \
  TreeLib/gport/gport.h TreeLib/gport/gdefs.h
 	$(CC) $(C_FLAGS) $(incDirs) -c -o $@ $<

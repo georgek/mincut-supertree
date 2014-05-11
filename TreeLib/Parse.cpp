@@ -20,7 +20,8 @@
  */
 
  // $Id: Parse.cpp,v 1.9 2002/02/23 12:22:32 rdmp1c Exp $
- 
+
+#include <cstring>
 #include <ctype.h>
 #include "Parse.h"
 

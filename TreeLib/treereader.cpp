@@ -21,6 +21,8 @@
  
  // $Id: treereader.cpp,v 1.4 2002/03/05 17:23:29 rdmp1c Exp $
 
+#include <cstdlib>
+#include <cstring>
 #include "treereader.h"
 
 #if __MWERKS__

@@ -24,6 +24,7 @@
 #include "TreeLib.h"
 #include "Parse.h"
 
+#include <cstdlib>
 #include <vector>
 
 
